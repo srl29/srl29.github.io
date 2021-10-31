@@ -4,21 +4,115 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Movie website</title>
 </head>
-<body>
+<body>  
+    <!--login form popup-->
+<div class="login-wrapper" id="login-content">
+    <div class="login-content">
+        <a href="#" class="close">x</a>
+        <h3>Login</h3>
+        <form method="post" action="#">
+        	<div class="row">
+        		 <label for="username">
+                    Username:
+                    <input type="text" name="username" id="username" placeholder="Username here" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{8,20}$" required="required" />
+                </label>
+        	</div>
+           
+            <div class="row">
+            	<label for="password">
+                    Password:
+                    <input type="password" name="password" id="password" placeholder="******" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" required="required" />
+                </label>
+            </div>
+            <div class="row">
+            	<div class="remember">
+					<div>
+						<input type="checkbox" name="remember" value="Remember me"><span>Remember me</span>
+					</div>
+            		<a href="#">Forget password ?</a>
+            	</div>
+            </div>
+           <div class="row">
+           	 <button type="submit">Login</button>
+           </div>
+        </form>
+        <div class="row">
+        	<p>Or via social</p>
+            <div class="social-btn-2">
+            	<a class="fb" href="#"><i class="ion-social-facebook"></i>Facebook</a>
+            	<a class="tw" href="#"><i class="ion-social-twitter"></i>twitter</a>
+            </div>
+        </div>+
+		
+    </div>
+</div>
+<!--end of login form popup-->
+<!----signup form popup-->
+<div class="login-wrapper"  id="signup-content">
+    <div class="login-content">
+        <a href="#" class="close">x</a>
+        <h3>sign up</h3>
+        <form method="post" action="#">
+            <div class="row">
+                 <label for="username-2">
+                    Username:
+                    <input type="text" name="username" id="username-2" placeholder="Username here" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{8,20}$" required="required" />
+                </label>
+            </div>
+           
+            <div class="row">
+                <label for="email-2">
+                    Your email:
+                    <input type="password" name="email" id="email-2" placeholder="" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" required="required" />
+                </label>
+            </div>
+             <div class="row">
+                <label for="password-2">
+                    Password:
+                    <input type="password" name="password" id="password-2" placeholder="" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" required="required" />
+                </label>
+            </div>
+             <div class="row">
+                <label for="repassword-2">
+                    re-type Password:
+                    <input type="password" name="password" id="repassword-2" placeholder="" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" required="required" />
+                </label>
+            </div>
+           <div class="row">
+             <button type="submit">sign up</button>
+           </div>
+        </form>
+    </div>
+</div>
+<!---------end of signup form popup--------->
+
+    <header class="ht-header">
+        <div class="header-container">
+            <a href="" style="background-color: gray;"><img class="logo" src="Logo-Movie.webp" alt="MySiteLogo"></a> 
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Movies</a></li>
+                <li><a href="">Dramas</a></li>
+                <li><a href="">Genres</a></li>
+                <li><a href=""></a></li>
+                <li><a href="">About</a></li>
+            </ul>
+        </div>
+    </header>
     <footer class="ht-footer">
-        <div class="container">
+        <div class="footer-container">
             <div class="flex-parent-ft">
                 <div class="flex-child-ft item1">
-                     <a href=""><img class="logo" src="" alt=""></a> 
-                     <p>Sukhbaatar duurge, Ulaanbaatar XXXXX<br></p>
+                     <a href=""><img class="logo" src="Logo-Movie.webp" alt=""></a> 
+            *     <p>Sukhbaatar duurge, Ulaanbaatar XXXXX<br></p>
                     <p>Call us: +976 XXXXXXXX</p>
                 </div>
                 <div class="flex-child-ft item2">
                     <h4>Resources</h4>
                     <ul>
-                        <li><a href="#">About</a></li> 
+                        <li><a href="#">About</a></li>
                         <li><a href="#">Contact Us</a></li>
                         <li><a href="#">Blog</a></li>
                         <li><a href="#">Help Center</a></li>
