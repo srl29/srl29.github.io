@@ -6,19 +6,24 @@
     font-size: 18px;
 }
 .body {
-    background-color:rgba(17, 17, 17, 1);
-    color: white;
-    font-family: 'Encode Sans', sans-serif;
-    font-family: 'Open Sans', sans-serif;
+    /* Home */
+
+
+position: relative;
+width: 1440px;
+height: 6144px;
+
+/* Primary/Dark Gray */
+
+background: #1E1E1E;
   }
   .header-container {
     border: 1px solid powderblue;
-    
   }
 .header-container li {
     
     margin-left: 20px;
-    border-left: 1px solid powderblue;
+    border-left: 1px solid rgb(91, 95, 95);
     color: white;
     text-decoration: none;
     border-left: 1px solid white;
@@ -170,9 +175,5 @@
     text-transform: uppercase;
     margin-bottom: 0;
     color: #8c9296;
-    font-family: 'Dosis', sans-serif;
     font-weight: 700;
   }
-  
-    
-  
