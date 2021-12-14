@@ -53,29 +53,24 @@
 						<li class="hidden">
 							<a href="#page-top"></a>
 						</li>
-						<li class="dropdown first">
-							<a class="btn btn-default dropdown-toggle lv1" data-toggle="dropdown" href="index-2.html">
+						<li>
+							<a class="btn btn-default dropdown-toggle lv1" href="index-2.html">
 							Home 
 							</a>
 						</li>
-						<li class="dropdown first">
-							<a class="btn btn-default dropdown-toggle lv1" data-toggle="dropdown" data-hover="dropdown">
-							movies
+						<li>
+							<a class="btn btn-default dropdown-toggle lv1" href="#series">
+							Series
 							</a>
 						</li>
-						<li class="dropdown first">
-							<a class="btn btn-default dropdown-toggle lv1" data-toggle="dropdown" data-hover="dropdown">
-							celebrities 
+						<li>
+							<a class="btn btn-default dropdown-toggle lv1" href="#movies">
+							Movies 
 							</a>
 						</li>
-						<li class="dropdown first">
-							<a class="btn btn-default dropdown-toggle lv1" data-toggle="dropdown" data-hover="dropdown">
-							news 
-							</a>
-						</li>
-						<li class="dropdown first">
-							<a class="btn btn-default dropdown-toggle lv1" data-toggle="dropdown" data-hover="dropdown">
-							community 
+						<li>
+							<a class="btn btn-default dropdown-toggle lv1" href="#foot-side">
+							About 
 							</a>
 						</li>
 					</ul>
@@ -116,7 +111,7 @@
 	    			</div>
 	    			<div class="title-in">
 	    				<div class="cate">
-	    					<span class="yell"><a href="#">action</a></span>
+	    					<span class="blue"><a href="#">action</a></span>
 	    				</div>
 	    				<h6><a href="#">The revenant</a></h6>
 	    				<p><i class="ion-android-star"></i><span>7.4</span> /10</p>
@@ -128,7 +123,7 @@
 	    			</div>
 	    			<div class="title-in">
 	    				<div class="cate">
-	    					<span class="green"><a href="#">comedy</a></span>
+	    					<span class="blue"><a href="#">comedy</a></span>
 	    				</div>
 	    				<h6><a href="#">Die hard</a></h6>
 	    				<p><i class="ion-android-star"></i><span>7.4</span> /10</p>
@@ -140,7 +135,7 @@
 	    			</div>
 	    			<div class="title-in">
 	    				<div class="cate">
-	    					<span class="blue"><a href="#">Sci-fi</a></span> <span class="orange"><a href="#">advanture</a></span>
+	    					<span class="blue"><a href="#">Sci-fi</a></span> <span class="blue"><a href="#">advanture</a></span>
 	    				</div>
 	    				<h6><a href="#">The walk</a></h6>
 	    				<p><i class="ion-android-star"></i><span>7.4</span> /10</p>
@@ -164,7 +159,7 @@
 	    			</div>
 	    			<div class="title-in">
 	    				<div class="cate">
-	    					<span class="yell"><a href="#">action</a></span>
+	    					<span class="blue"><a href="#">action</a></span>
 	    				</div>
 	    				<h6><a href="#">The revenant</a></h6>
 	    				<p><i class="ion-android-star"></i><span>7.4</span> /10</p>
@@ -176,7 +171,7 @@
 	    			</div>
 	    			<div class="title-in">
 	    				<div class="cate">
-	    					<span class="green"><a href="#">comedy</a></span>
+	    					<span class="blue"><a href="#">comedy</a></span>
 	    				</div>
 	    				<h6><a href="#">Die hard</a></h6>
 	    				<p><i class="ion-android-star"></i><span>7.4</span> /10</p>
@@ -188,7 +183,7 @@
 	    			</div>
 	    			<div class="title-in">
 	    				<div class="cate">
-	    					<span class="blue"><a href="#">Sci-fi</a></span> <span class="orange"><a href="#">advanture</a></span>
+	    					<span class="blue"><a href="#">Sci-fi</a></span> <span class="blue"><a href="#">advanture</a></span>
 	    				</div>
 	    				<h6><a href="#">The walk</a></h6>
 	    				<p><i class="ion-android-star"></i><span>7.4</span> /10</p>
@@ -200,7 +195,7 @@
 	    			</div>
 	    			<div class="title-in">
 	    				<div class="cate">
-	    					<span class="green"><a href="#">comedy</a></span>
+	    					<span class="blue"><a href="#">comedy</a></span>
 	    				</div>
 	    				<h6><a href="#">Die hard</a></h6>
 	    				<p><i class="ion-android-star"></i><span>7.4</span> /10</p>
@@ -215,7 +210,7 @@
 		<div class="row ipad-width">
 			<div class="col-md-8">
 				<div class="title-hd">
-					<h2>in theater</h2>
+					<h2 id="series">Series</h2>
 					<a href="#" class="viewall">View all <i class="ion-ios-arrow-right"></i></a>
 				</div>
 				<div class="tabs">
@@ -589,8 +584,8 @@
 				    </div>
 				</div>
 				<div class="title-hd">
-					<h2>on tv</h2>
-					<a href="#" class="viewall">View all <i class="ion-ios-arrow-right"></i></a>
+					<h2>movies</h2>
+					<a class="viewall" id="movies">View all <i class="ion-ios-arrow-right"></i></a>
 				</div>
 				<div class="tabs">
 					<ul class="tab-links-2">
@@ -1074,12 +1069,11 @@
 	</div>
 </div>
 
-
 <!-- footer section-->
 <footer class="ht-footer">
 	<div class="container">
 		<div class="flex-parent-ft">
-			<div class="flex-child-ft item1">
+			<div class="flex-child-ft item1" id="foot-side">
 				 <a href="index-2.html"><img class="logo" src="Logo-Movie.png" alt=""></a>
 				 <p>5th Avenue st, manhattan<br>
 				New York, NY 10001</p>
